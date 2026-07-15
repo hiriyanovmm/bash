@@ -17,7 +17,7 @@ The script checks the target flavor, starts a resize operation, waits for the VM
 ## Usage
 
 ```bash
-./resize_flavor.sh <vm_name_or_id> <new_flavor> [poll_interval_sec] [timeout_sec]
+./change_flavor.sh <vm_name_or_id> <new_flavor> [poll_interval_sec] [timeout_sec]
 ```
 
 ### Arguments
